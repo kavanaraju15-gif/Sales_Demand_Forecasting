@@ -33,7 +33,7 @@ st.write(
 # LOAD DATA
 # ==========================================
 
-data = pd.read_csv("Sales_Demand_Forecasting/sales_data.csv")
+data = pd.read_csv("sales_data.csv")
 
 data["Date"] = pd.to_datetime(data["Date"])
 
